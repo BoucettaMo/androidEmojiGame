@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:orientation="vertical"
+    android:paddingStart="10dp"
+    android:paddingTop="100dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/animals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Animals"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/symbols"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Symbols"
+            android:textSize="25sp" />
+
+        <RadioButton
+            android:id="@+id/flags"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="false"
+            android:text="Flags"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:stretchColumns="@string/appbar_scrolling_view_behavior">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/eleven"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/twelve"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/thirten"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/fourten"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/fiften"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/sixten"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/seventen"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/eighten"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/nineten"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/twenty"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <Button
+                android:id="@+id/twentyone"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/twentytwo"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/twentythree"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="@color/yellow"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+
+            <Button
+                android:id="@+id/twentyfour"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:backgroundTint="#FFC107"
+                android:text=""
+                android:textSize="40sp"
+                app:cornerRadius="20dp" />
+        </TableRow>
+
+        
+            <Button
+                android:id="@+id/newgame"
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:layout_column="2"
+                android:layout_weight="1"
+                android:backgroundTint="@color/yellow"
+                android:text="New Game"
+                android:textSize="30dp"
+                app:cornerRadius="20dp"
+                android:layout_marginBottom="20sp"/>
+
+       
+
+    </TableLayout>
+
+
+</LinearLayout>
